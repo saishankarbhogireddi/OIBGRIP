@@ -1,0 +1,92 @@
+.background-container{
+    background-color: black;
+    width: 98%;
+    max-width: 130%;
+    margin: auto;
+}
+.main-heading{
+    color: white;
+    font-family: 'bree-serif';
+    font-weight: 500;
+    font-size: 63px;
+    padding: px;
+    margin: 0px;
+    text-align: center;
+}
+.title-container{
+    background-color: black;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 120px;
+}
+.paragraph{
+    color: white;
+    font-size: 32px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+.image-styling{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    /* max-width: 900px; */
+}
+.font-awesome-icon{
+    color: white !important;
+    text-align: center !important;
+    padding: 20px;
+}
+.biography-container{
+    color: white;
+    margin: auto;
+    padding-top: 40px;
+}
+.biography-container div{
+    width: 50vw;
+    margin: auto;
+}
+.biography-container p{
+    font-size: 27px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.horizontal-line-decor{
+    border-style: solid;
+    border-width: 1px;
+    color: grey;
+    width: 50vw;
+    margin: auto;
+}
+.footer-description{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 120%){
+    p{
+        font-size: 23px;
+    }
+    h1{
+        font-size: 42px;
+    }
+    
+}
+.text-container{
+    background-color: white;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+.description{
+    font-family: 'Roboto';
+    /* font-weight: 700; */
+    font-size: 43px;
+}
+.biography{
+    font-size: 53px;
+}
